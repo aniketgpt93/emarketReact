@@ -10,7 +10,7 @@ import { connect } from 'react-redux'
 var mapStateToProps = (state)=>{
     return { userinfo : state.user, carts : state.carts }
 }
-// add on gitvvvvvvvvvvvvvvvvvvvv
+// add on git
 //https://www.cluemediator.com/integrate-stripe-payment-gateway-in-react
 //npm install --save @stripe/react-stripe-js @stripe/stripe-js
 const stripePromise = loadStripe("pk_test_51H47bhGn0V8TkBtW76znkhJe871UyjlxKq6QUzwRkFzwXLGMkptXFViE2loGuWDjmZOeudddJn51CKUq6RFozr4X009E1WcTc8");
