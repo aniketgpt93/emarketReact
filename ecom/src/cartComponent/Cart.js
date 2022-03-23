@@ -6,7 +6,7 @@ import './Cart.css'
 
 
 
-import { connect } from 'react-redux'
+import { connect } from 'react-redux'git 
 var mapStateToProps = (state)=>{
     return { userinfo : state.user, carts : state.carts }
 }
